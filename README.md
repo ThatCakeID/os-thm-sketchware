@@ -16,12 +16,15 @@ There are 2 ways of implementing os-thm to your sketchware app:
 
 ### Injecting the osthm library
 To implement os-thm to your sketchware app, inject the [osthm.java]() file, ignore the `os-thm-sketchware-asd.java`
+
 And you're all set!
+
 
 ### Using ASD
  - Create a new activity named `osthm`
  - Add an ASD block in onCreate
  - Copy and paste the [os-thm-sketchware-asd.java]() file into the ASD, ignore the `osthm.java`
+ 
 And you're all set!
 
 ## Using os-thm
