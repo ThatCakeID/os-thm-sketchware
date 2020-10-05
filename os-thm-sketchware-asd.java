@@ -21,7 +21,7 @@ public static Theme getCurrentTheme() {
         } else if (currentTheme.equals("dark")) {
             return new Theme(dark_theme);
         }
-        org.json.JSONObject full_theme = new JSONObject(readFile(themes_folder + currentTheme + ".os-thm"));
+        org.json.JSONObject full_theme = new org.json.JSONObject(readFile(themes_folder + currentTheme + ".os-thm"));
         return new Theme(full_theme.getString("themesjson"));
 
     } catch (java.lang.Exception e) {
@@ -167,4 +167,3 @@ public static class Theme {
         this.colorDialogText = colorDialogText;
         this.colorDialogTint = colorDialogTint;
     }
-}
