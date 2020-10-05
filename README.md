@@ -30,6 +30,8 @@ And you're all set!
 ## Using os-thm
 Here is an example code to apply theme to your sketchware app:
 ```java
+// Put this in onStart
+
 // Getting current applied theme
 osthm.Theme currentTheme = osthm.getCurrentTheme();
 
