@@ -15,15 +15,26 @@ There are 2 ways of implementing os-thm to your sketchware app:
 2. Using ASD
 
 ### Injecting the osthm library
-To implement os-thm to your sketchware app, inject the [osthm.java]() file, ignore the `os-thm-sketchware-asd.java`
+To implement os-thm to your sketchware app,
+ - Add your package in the first line of [osthm.java](https://github.com/ThatCakeID/os-thm-sketchware/blob/master/osthm.java)
+   Example:
+   ```java
+   package my.newproject69.yay;
+   
+   // osthm.java contents //
+   ```
+ 
+ - Grant READ and WRITE External storage permission.
+ - Inject the [osthm.java](https://github.com/ThatCakeID/os-thm-sketchware/blob/master/osthm.java) file, and ignore the `os-thm-sketchware-asd.java`
 
 And you're all set!
 
 
 ### Using ASD
  - Create a new activity named `osthm`
- - Add an ASD block in onCreate
- - Copy and paste the [os-thm-sketchware-asd.java]() file into the ASD, ignore the `osthm.java`
+ - Put a random File block for the storage permission
+ - Add an ASD block in onCreate ontop of the File block you placed
+ - Copy and paste the [os-thm-sketchware-asd.java](https://github.com/ThatCakeID/os-thm-sketchware/blob/master/os-thm-sketchware-asd.java) file into the ASD, and ignore the `osthm.java`
  
 And you're all set!
 
