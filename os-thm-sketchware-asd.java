@@ -10,7 +10,7 @@ public static final String default_theme = "{\"colorPrimary\":-14575885,\"colorB
 public static final String dark_theme = "{\"colorPrimary\":-13421773,\"colorBackgroundCardTint\":-7762803,\"colorPrimaryDark\":-14540254,\"colorBackgroundText\":-1,\"colorBackground\":-14342875,\"shadow\":1,\"colorDialog\":-13685459,\"colorPrimaryTint\":-1,\"colorHint\":-8355712,\"colorStatusbarTint\":1,\"colorDialogTint\":-7762803,\"colorPrimaryCardTint\":-7762803,\"colorPrimaryText\":-1,\"colorAccent\":-720809,\"colorBackgroundCardText\":-2038811,\"colorBackgroundTint\":-1,\"colorControlHighlight\":1090519039,\"colorAccentText\":-1,\"colorDialogText\":-2038811,\"colorBackgroundCard\":-13685459,\"colorPrimaryCardText\":-2038811,\"colorPrimaryCard\":-13685459}";
 
 public static Theme getCurrentTheme() {
-    if (!new java.io.File(exported_themes_folder).exists())
+    if (!new java.io.File(externalDir + "/.os-thm/").exists())
         return new Theme(default_theme);
     
     try {
