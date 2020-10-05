@@ -17,6 +17,7 @@ There are 2 ways of implementing os-thm to your sketchware app:
 ### Injecting the osthm library
 To implement os-thm to your sketchware app,
  - Add your package in the first line of [osthm.java](https://github.com/ThatCakeID/os-thm-sketchware/blob/master/osthm.java)
+ 
    Example:
    ```java
    package my.newproject23.yay;
