@@ -34,7 +34,8 @@ public class osthm {
             } else if (currentTheme.equals("dark")) {
                 return new Theme(dark_theme);
             }
-            return new Theme(readFile(themes_folder + currentTheme));
+            JSONObject full_theme = new JSONObject(readFile(themes_folder + currentTheme + ".os-thm"));
+            return new Theme(full_theme.getString("themesjson"));
 
         } catch (Exception e) {
             return new Theme(default_theme);
