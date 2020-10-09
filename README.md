@@ -33,7 +33,7 @@ And you're all set!
 
 ### Using ASD
  - Create a new activity named `osthm`
- - Put a random File block for the storage permission
+ - Grant READ and WRITE External storage permission. 
  - Add an ASD block in onCreate ontop of the File block you placed
  - Copy and paste the [os-thm-sketchware-asd.java](https://github.com/ThatCakeID/os-thm-sketchware/blob/master/os-thm-sketchware-asd.java) file into the ASD, and ignore the `osthm.java`
  
