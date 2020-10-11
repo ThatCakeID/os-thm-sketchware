@@ -33,9 +33,13 @@ And you're all set!
 
 ### Using ASD
  - Create a new activity named `osthm`
- - Put a random File block for the storage permission
+ - Grant READ and WRITE External storage permission. 
  - Add an ASD block in onCreate ontop of the File block you placed
  - Copy and paste the [os-thm-sketchware-asd.java](https://github.com/ThatCakeID/os-thm-sketchware/blob/master/os-thm-sketchware-asd.java) file into the ASD, and ignore the `osthm.java`
+ 
+To grant storage permission you can usue external tools, or write something in a random temporal file and then delete that file
+
+Note: We suggest you to check if the user denied the dialog because if the permission is denied os-thm will not work
  
 And you're all set!
 
