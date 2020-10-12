@@ -45,6 +45,8 @@ And you're all set!
 
 ## Using os-thm
 Here is an example code to apply theme to your sketchware app:
+
+Note: For the people using ASD to implement os-thm, replace the `osthm` word into `OsthmActivity`, Because sketchware is concating the word `Activity` after the given text, and uppercasing the first letter.
 ```java
 // Put this in onStart
 
