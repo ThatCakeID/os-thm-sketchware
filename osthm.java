@@ -94,19 +94,19 @@ public class osthm {
                 this.colorAccent = theme.getInt("colorAccent");
                 this.colorAccentText = theme.getInt("colorAccentText");
                 this.shadow = theme.getInt("shadow");
-                this.colorControlHighlight = theme.getInt(" colorControlHighlight");
-                this.colorHint = theme.getInt(" colorHint");
-                this.colorPrimaryTint = theme.getInt(" colorPrimaryTint");
-                this.colorBackgroundTint = theme.getInt(" colorBackgroundTint");
-                this.colorPrimaryCard = theme.getInt(" colorPrimaryCard");
-                this.colorBackgroundCard = theme.getInt(" colorBackgroundCard");
-                this.colorPrimaryCardText = theme.getInt(" colorPrimaryCardText");
-                this.colorBackgroundCardText = theme.getInt(" colorBackgroundCardText");
-                this.colorPrimaryCardTint = theme.getInt(" colorPrimaryCardTint");
-                this.colorBackgroundCardTint = theme.getInt(" colorBackgroundCardTint");
-                this.colorDialog = theme.getInt(" colorDialog");
-                this.colorDialogText = theme.getInt(" colorDialogText");
-                this.colorDialogTint = theme.getInt(" colorDialogTint");
+                this.colorControlHighlight = theme.getInt("colorControlHighlight");
+                this.colorHint = theme.getInt("colorHint");
+                this.colorPrimaryTint = theme.getInt("colorPrimaryTint");
+                this.colorBackgroundTint = theme.getInt("colorBackgroundTint");
+                this.colorPrimaryCard = theme.getInt("colorPrimaryCard");
+                this.colorBackgroundCard = theme.getInt("colorBackgroundCard");
+                this.colorPrimaryCardText = theme.getInt("colorPrimaryCardText");
+                this.colorBackgroundCardText = theme.getInt("colorBackgroundCardText");
+                this.colorPrimaryCardTint = theme.getInt("colorPrimaryCardTint");
+                this.colorBackgroundCardTint = theme.getInt(" olorBackgroundCardTint");
+                this.colorDialog = theme.getInt("colorDialog");
+                this.colorDialogText = theme.getInt("colorDialogText");
+                this.colorDialogTint = theme.getInt("colorDialogTint");
             } catch (JSONException e) {
 
                 // "{\"colorPrimary\":-14575885,
