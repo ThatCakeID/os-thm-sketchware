@@ -8,6 +8,8 @@ os-thm is a simple library used to manage themes that can be applied globaly.
 
 [Original GitHub Repository](https://github.com/ThatCakeID/os-thm-android)
 
+#### NOTE: THIS REPOSITORY IS DEPRECATED, USE [OS-THM-SKETCHWARE SKETCHUB PROJECT](https://project.sketchub.in/?id=920) INSTEAD.
+
 ## Implementing os-thm
 There are 2 ways of implementing os-thm to your sketchware app:
 
